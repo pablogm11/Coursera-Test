@@ -1,0 +1,16 @@
+/**{
+	box-sizing: border-box;
+}*/
+
+#header-nav{
+	background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1{
+  padding-top: 25px;
+  background-color: yellow;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
