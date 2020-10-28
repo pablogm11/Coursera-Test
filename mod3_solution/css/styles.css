@@ -3,14 +3,100 @@
 }*/
 
 #header-nav{
-	background-color: #f6b319;
+   background-color: #f6b319;
   border-radius: 0;
   border: 0;
+  height: 90px;
 }
-.navbar-brand h1{
-  padding-top: 25px;
-  background-color: yellow;
-  margin-top: 0;
-  margin-bottom: 0;
 
+.navbar-brand {
+  padding-top: 25px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+
+  color: red;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button{
+	margin-bottom: 10px;
+
+}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #951C49;
+    color: white;
+
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+#nav-list {
+  margin-top: 0;
+}
+/* HEADER */
+/*CONTENT*/
+
+#menu{
+	font-size: 2.5vw;
+	font-weight: bold;
+	vertical-align:  top;
+	margin-bottom: 15px;
+	display: block;
+}
+#title2{
+	font-size: 20px;
+	font-weight: bold;
+	vertical-align:  top;
+	margin-top: 15px;
+
+}
+#contentCH {
+	margin-top: 15px;
+	text-align: justify;
+	overflow: hidden;
+}
+#pollo{
+	background-color: #A6CAFE;
+	margin: 10px 0px auto;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+   #menu{
+	font-size: 20px;
+}
+  }
+
+
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+
+  }
+  #menu{
+	font-size: 20px;
+}
 }
